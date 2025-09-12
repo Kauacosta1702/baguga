@@ -686,12 +686,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: PERSONAGEM
-    text: slk mano eu vi que se tava na seurozi no bagulho ali
-  - characterName: VEIA
-    text: isso mesmo, tava cheirnado uma coca e aparece a bomba de um porco
-  - characterName: PERSONAGEM
-    text: papo veia nois precisa dar um jeito nesses caba
+  - characterName: MORADOR
+    text: "oi?? mo\xE7a voce esta perdida"
+  - characterName: LINA
+    text: Nao me machuque, por favor
+  - characterName: MORADOR
+    text: Nao se preocupe, eu nao sou do movimento
+  - characterName: MORADOR
+    text: Porque a senhorita esta aqui??
+  - characterName: LINA
+    text: 'Eu estou aqui por casusa de uma reportagem '
+  - characterName: LINA
+    text: Mas acabei ficando presa aqui, agora pouco quase eu fui vista
+  - characterName: MORADOR
+    text: "VOce quer sair?? entao vai te que continuar tome cuidado, daqui pra frente
+      \xE9 pra pior"
   dialogueText: {fileID: 897580204}
   characterNameText: {fileID: 654235237}
   dialoguePanel: {fileID: 1218170313}
@@ -761,7 +770,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9999599, z: -0, w: -0.008961947}
   m_LocalPosition: {x: -37.4, y: -3.13, z: -1.1}
-  m_LocalScale: {x: 0.9027, y: 0.55614996, z: 1}
+  m_LocalScale: {x: 0.9027, y: 0.53774136, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1258,7 +1267,7 @@ Transform:
   m_GameObject: {fileID: 471144911}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -116.6, y: -1.06, z: 0}
+  m_LocalPosition: {x: -140.02, y: -1.06, z: 0}
   m_LocalScale: {x: 0.71299666, y: 0.49936798, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1276,7 +1285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b6fd55f5e12d2479627bbc592b66e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9
+  speed: 10
 --- !u!114 &471144917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1925,7 +1934,7 @@ Transform:
   m_GameObject: {fileID: 537237151}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.672, y: -0.18, z: 0}
+  m_LocalPosition: {x: -2.682, y: -0.227, z: 0}
   m_LocalScale: {x: 0.017172894, y: 0.09582924, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3292,7 +3301,7 @@ GameObject:
   - component: {fileID: 975401268}
   - component: {fileID: 975401269}
   m_Layer: 0
-  m_Name: COLLIDER (1)
+  m_Name: Obstaculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3307,7 +3316,7 @@ Transform:
   m_GameObject: {fileID: 975401267}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 222, y: -1.24, z: 0.38022894}
+  m_LocalPosition: {x: 236.3, y: -1.24, z: 0.38022894}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3393,13 +3402,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - characterName: PERSONAGEM
-    text: eai mano vai corinthians
+    text: Boa noite
   - characterName: MENDIGO
-    text: nada ve vai palmeiras
+    text: Boa noite senhorita!
   - characterName: MENDIGO
-    text: slk depois nois vai cair na porrada
+    text: "Oque faz uma mo\xE7a do seu porte estar aqui em uma favel essa noite?"
   - characterName: PERSONAGEM
-    text: kkkkkk, voce? aqui tem mundial
+    text: Prazer me chamo lina, eu sou uma reporter
+  - characterName: PERSONAGEM
+    text: "Eu estou em busca de informacoes sobre como \xE9 a vida aqui na favela
+      do morro da Jangada"
+  - characterName: MENDIGO
+    text: "A minha filha, aqui \xE9 muito dificil de se viver"
+  - characterName: MENDIGO
+    text: Tome Cuidado pra quem voce vai perguntar
+  - characterName: MENDIGO
+    text: Nessa favela esta cheio de gente de ma intensao, se escondav o maximo
   dialogueText: {fileID: 897580204}
   characterNameText: {fileID: 654235237}
   dialoguePanel: {fileID: 1218170313}
@@ -3514,7 +3532,7 @@ Transform:
   m_GameObject: {fileID: 984730279}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.99988747, z: -0, w: 0.015003713}
-  m_LocalPosition: {x: -106.0448, y: -0.7105, z: -0.1514}
+  m_LocalPosition: {x: -123.76, y: -0.99, z: -0.65}
   m_LocalScale: {x: 6.625, y: 16.3125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3919,7 +3937,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -202, y: 97}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1074916782
@@ -4835,7 +4853,7 @@ Transform:
   m_GameObject: {fileID: 1520029267}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -129.4, y: -1.24, z: 0.38022894}
+  m_LocalPosition: {x: -151.61, y: -1.24, z: 0.38022894}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14951,7 +14969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -202, y: 97}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1634873208
