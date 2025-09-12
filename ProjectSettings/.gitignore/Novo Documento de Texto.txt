@@ -1,0 +1,7 @@
+# Ignorar tudo por padrão
+*
+
+# Exceto essas pastas importantes:
+!Assets/
+!ProjectSettings/
+!.gitignore
