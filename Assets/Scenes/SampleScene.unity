@@ -687,20 +687,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - characterName: MORADOR
-    text: "oi?? mo\xE7a voce esta perdida"
+    text: "Ol\xE1, mo\xE7a. Est\xE1 perdida?"
   - characterName: LINA
-    text: Nao me machuque, por favor
+    text: "N\xE3o! Sou uma jornalista."
   - characterName: MORADOR
-    text: Nao se preocupe, eu nao sou do movimento
-  - characterName: MORADOR
-    text: Porque a senhorita esta aqui??
+    text: Ah! e o que procura aqui?
   - characterName: LINA
-    text: 'Eu estou aqui por casusa de uma reportagem '
+    text: "Entrevistar hist\xF3rias dos moradores daqui."
   - characterName: LINA
-    text: Mas acabei ficando presa aqui, agora pouco quase eu fui vista
+    text: "Voc\xEA poderia contar a sua?"
   - characterName: MORADOR
-    text: "VOce quer sair?? entao vai te que continuar tome cuidado, daqui pra frente
-      \xE9 pra pior"
+    text: "Bem, moro aqui faz alguns anos. N\xE3o tenho exatamente muitas hist\xF3rias
+      para contar. "
+  - characterName: MORADOR
+    text: "Mas em geral, aqui n\xE3o \xE9 ideal para se viver. Morar nesse fim de
+      mundo esquecido at\xE9 por Deus. "
+  - characterName: MORADOR
+    text: "Aqui \xE9 cada um por si."
+  - characterName: LINA
+    text: Entendo, muito obrigada pelo seu relato!
   dialogueText: {fileID: 897580204}
   characterNameText: {fileID: 654235237}
   dialoguePanel: {fileID: 1218170313}
@@ -769,8 +774,8 @@ Transform:
   m_GameObject: {fileID: 158823620}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9999599, z: -0, w: -0.008961947}
-  m_LocalPosition: {x: -37.4, y: -3.13, z: -1.1}
-  m_LocalScale: {x: 0.9027, y: 0.53774136, z: 1}
+  m_LocalPosition: {x: -37.5479, y: -3.13, z: -1.0973}
+  m_LocalScale: {x: 0.8350878, y: 0.50122875, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -973,7 +978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionBar: {fileID: 136278242}
-  maxDetectionTime: 6
+  maxDetectionTime: 2
 --- !u!61 &334895412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1252,7 +1257,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 6, y: 8}
+  m_Size: {x: 5, y: 9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1267,7 +1272,7 @@ Transform:
   m_GameObject: {fileID: 471144911}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -140.02, y: -1.06, z: 0}
+  m_LocalPosition: {x: -144.4, y: -0.89, z: 0}
   m_LocalScale: {x: 0.71299666, y: 0.49936798, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1285,7 +1290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b6fd55f5e12d2479627bbc592b66e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 11
 --- !u!114 &471144917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,7 +1564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pontoA: {fileID: 17222404}
   pontoB: {fileID: 1864696431}
-  speed: 4
+  speed: 6
 --- !u!1 &504232979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,7 +1611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionBar: {fileID: 734387329}
-  maxDetectionTime: 5
+  maxDetectionTime: 2
 --- !u!61 &504232982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2130,7 +2135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pontoA: {fileID: 687117375}
   pontoB: {fileID: 1661915714}
-  speed: 4
+  speed: 6
 --- !u!212 &594507662
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2342,7 +2347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72.2, y: 43.6}
+  m_AnchoredPosition: {x: -159.4, y: 57}
   m_SizeDelta: {x: 185.573, y: 47.8363}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654235237
@@ -2430,7 +2435,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 4.882965, y: 15.438416, z: -17.12146, w: 14.739044}
+  m_margin: {x: 4.882965, y: 15.438416, z: 7.0338135, w: 14.739044}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2508,10 +2513,10 @@ Transform:
   m_Children:
   - {fileID: 109010391}
   - {fileID: 744790888}
-  - {fileID: 863153748}
-  - {fileID: 1575440741}
   - {fileID: 1827793810}
   - {fileID: 425784610}
+  - {fileID: 863153748}
+  - {fileID: 1575440741}
   m_Father: {fileID: 1904322846}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &689544957
@@ -3007,8 +3012,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20.3412, y: -14.4511}
-  m_SizeDelta: {x: 399.3781, y: 81.9516}
+  m_AnchoredPosition: {x: -4.7374, y: -22.9785}
+  m_SizeDelta: {x: 476.5067, y: 99.0062}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897580204
 MonoBehaviour:
@@ -3095,7 +3100,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 7.76178, y: 10, z: 4.142578, w: 10}
+  m_margin: {x: 16.029816, y: 16.20102, z: 16.571045, w: 10}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3300,6 +3305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 975401268}
   - component: {fileID: 975401269}
+  - component: {fileID: 975401270}
   m_Layer: 0
   m_Name: Obstaculo
   m_TagString: Untagged
@@ -3352,7 +3358,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3368,6 +3374,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2080231, y: 15.007358}
   m_EdgeRadius: 0
+--- !u!114 &975401270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975401267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad2d894b55cce449aa217f86b103c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &984730279
 GameObject:
   m_ObjectHideFlags: 0
@@ -3401,23 +3419,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: PERSONAGEM
-    text: Boa noite
+  - characterName: LINA
+    text: Boa noite!
   - characterName: MENDIGO
-    text: Boa noite senhorita!
+    text: Boa noite, senhorita! Gostaria de uma balinha?
+  - characterName: LINA
+    text: "Na verdade, gostaria de entrevistar o senhor. Sou uma rep\xF3rter."
   - characterName: MENDIGO
-    text: "Oque faz uma mo\xE7a do seu porte estar aqui em uma favel essa noite?"
-  - characterName: PERSONAGEM
-    text: Prazer me chamo lina, eu sou uma reporter
-  - characterName: PERSONAGEM
-    text: "Eu estou em busca de informacoes sobre como \xE9 a vida aqui na favela
-      do morro da Jangada"
+    text: "Se voc\xEA comprar algumas balinhas..."
+  - characterName: LINA
+    text: Eu compro se isso compensar o dia.
   - characterName: MENDIGO
-    text: "A minha filha, aqui \xE9 muito dificil de se viver"
+    text: "\xD3timo, ent\xE3o..."
   - characterName: MENDIGO
-    text: Tome Cuidado pra quem voce vai perguntar
+    text: "Quando tudo come\xE7ou, eu sa\xED para trabalhar como um dia qualquer,
+      e fui direto para muro sair da favela..."
   - characterName: MENDIGO
-    text: Nessa favela esta cheio de gente de ma intensao, se escondav o maximo
+    text: "Mas estava fechado, e quando fui barrado eu fiquei furioso e comecei uma
+      briga que n\xE3o terminou bem."
+  - characterName: MENDIGO
+    text: "Foi ai que os bandidos me ofereceram trabalhar com eles, eu recusei,e
+      foi a\xED que perdi minha casa e tudo que tinha."
+  - characterName: MENDIGO
+    text: "Mas n\xE3o me arrependo de nada."
+  - characterName: LINA
+    text: "Que hist\xF3ria, senhor. Obrigada!"
+  - characterName: MENDIGO
+    text: "V\xE1 pela sombra, jornalista."
   dialogueText: {fileID: 897580204}
   characterNameText: {fileID: 654235237}
   dialoguePanel: {fileID: 1218170313}
@@ -3615,7 +3643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pontoA: {fileID: 1119422344}
   pontoB: {fileID: 1581858197}
-  speed: 5
+  speed: 6
 --- !u!212 &1026189681
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3829,7 +3857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pontoA: {fileID: 1954196832}
   pontoB: {fileID: 325343340}
-  speed: 5
+  speed: 6
 --- !u!212 &1035544176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4159,7 +4187,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1204807771635183992, guid: 76642107d6212924daead29ff9587933, type: 3}
+  m_Sprite: {fileID: -2510476293373519475, guid: 8a419b9fccddbd1499ae3d6719305c95, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4298,7 +4326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionBar: {fileID: 1634873208}
-  maxDetectionTime: 4
+  maxDetectionTime: 1
 --- !u!61 &1296082742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4922,8 +4950,8 @@ Transform:
   m_GameObject: {fileID: 1575440740}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28, y: -0.21031901, z: 0}
-  m_LocalScale: {x: 0.3721722, y: 0.5325636, z: 1}
+  m_LocalPosition: {x: -26.3, y: 0.2, z: 0}
+  m_LocalScale: {x: 0.37217218, y: 0.53256375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 689544956}
@@ -15471,8 +15499,8 @@ Transform:
   m_GameObject: {fileID: 1827793809}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -72.8, y: 1.860815, z: 0}
-  m_LocalScale: {x: 2.388538, y: 3.0562742, z: 1}
+  m_LocalPosition: {x: -76.6782, y: 0.4733, z: 0}
+  m_LocalScale: {x: 1.5719672, y: 2.1857011, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 689544956}
@@ -15932,7 +15960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionBar: {fileID: 1074916782}
-  maxDetectionTime: 4
+  maxDetectionTime: 1
 --- !u!61 &1981014114
 BoxCollider2D:
   m_ObjectHideFlags: 0
