@@ -10,12 +10,12 @@ public class EnemyPatrol : MonoBehaviour
 
     void Start()
     {
-        alvo = pontoA; // começa indo pro ponto A
+        alvo = pontoA; 
     }
 
     void Update()
     {
-        // move o inimigo em direção ao alvo
+        
         transform.position = Vector2.MoveTowards(transform.position, alvo.position, speed * Time.deltaTime);
 
         // troca o alvo quando chega perto do destino
@@ -23,7 +23,7 @@ public class EnemyPatrol : MonoBehaviour
         {
             alvo = (alvo == pontoA) ? pontoB : pontoA;
 
-            // inverte o sprite (opcional, se quiser que vire a carinha)
+            
             Vector3 scale = transform.localScale;
             scale.x *= -1;
             transform.localScale = scale;

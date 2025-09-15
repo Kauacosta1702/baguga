@@ -3,7 +3,7 @@ using UnityEngine;
 public class NPCMovimento : MonoBehaviour
 {
     public float speed = 2f;
-    public float moveTime = 2f; // tempo andando em uma direção
+    public float moveTime = 2f; 
     private float timer;
     private int direction = 1;
 
@@ -23,14 +23,13 @@ public class NPCMovimento : MonoBehaviour
 
         if (timer <= 0)
         {
-            direction *= -1; // inverte direção
+            direction *= -1; 
             timer = moveTime;
         }
 
-        // Movimento
+        
         rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
 
-        // Virar sprite
         sr.flipX = direction < 0;
     }
 }
